@@ -1,0 +1,76 @@
+.introducao {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+  }
+
+
+.introducao-imgVinicius{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.introducao-titulo{
+    font-size: 4rem;
+    line-height: 1.125;
+    font-family: 'Spectral', Georgia;
+}
+  
+.introducao-infoBasicas{
+    display: flex;
+    align-items: center;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 2.5px;
+    
+}
+
+.introducao-infoBasicas p{
+    font-size: 1.4rem;
+  color: #525252;
+}
+
+@media (max-width: 1000px) {
+    .introducao h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .introducao {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    .introducao h1 {
+      font-size: 2rem;
+    }
+    .introducao h1::before {
+      width: 30px;
+      height: 10px;
+      left: 0px;
+    }
+
+    .introducao-infoBasicas img{
+        display: none;
+    }
+
+
+  }
+  
+  @media (max-width: 400px) {
+    .introducao {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .introducao-imgVinicius {
+        max-width: 50%;
+    }
+  }
+  
