@@ -8,7 +8,7 @@ const Header = () => {
         <nav>
             <ul className='header-menu'>
                 <li><a>Experiência</a></li>
-                <li><a>Formação</a></li>
+                <li><a href='#formacao'>Formação</a></li>
                 <li><a>Contato</a></li>
             </ul>
 

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: #141414;
+    width: 34.375rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.card-formacao{
+    padding-right: 2rem;
+    width: 12rem;
+}
+
+.card-tecnologias-tipoCurso{
+    font-size: 0.875rem;
+    color: #d9d9d9;
+    position: relative;
+}
+
+.card-tecnologias-tipoCurso::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100px;
+    background: linear-gradient(#FFBB11,#764701);
+    position: absolute;
+    left: -15px;
+}
+
+.card-tecnologias-curso{
+    font-size: 1.125rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.card-tecnologias-instituicao{
+    font-size: 0.875rem;
+    color: #d9d9d9;
+}
+
+.card-tecnologias-periodo{
+    font-size: 0.875rem;
+    color: #d9d9d9;
+}
+
+.card-tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    width: 17rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.card-tecnologias li{
+    background: #FFBB11;
+    padding: 2px 0.5rem;
+    border-radius: 3px;
+    color: #764701;
+    font-size: 0.875rem;
+}

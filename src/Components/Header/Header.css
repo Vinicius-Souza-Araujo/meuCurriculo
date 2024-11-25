@@ -19,9 +19,16 @@
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
-    color: #141414;
+   color: #333;
     display: block;
     cursor: pointer;
+  }
+
+  .header-titulo{
+    font-size: 1.5rem;
+    font-family: 'Spectral', Georgia;
+    color: #333;
+
   }
   
   @media (max-width: 800px) {
@@ -37,7 +44,3 @@
     }
   }
   
-  .header-titulo{
-    font-size: 1.7rem;
-    font-family: 'Spectral', Georgia;
-  }
